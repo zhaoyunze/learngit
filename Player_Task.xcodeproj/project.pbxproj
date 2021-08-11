@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E313044926C0B50B00CEBB1A /* video3.mov in Resources */ = {isa = PBXBuildFile; fileRef = E313044826C0B50B00CEBB1A /* video3.mov */; };
+		E313044B26C0B51100CEBB1A /* video4.mov in Resources */ = {isa = PBXBuildFile; fileRef = E313044A26C0B51100CEBB1A /* video4.mov */; };
+		E31450E226BBB7270028D313 /* 6-3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E31450DA26BBB7270028D313 /* 6-3.mp4 */; };
+		E31450E326BBB7270028D313 /* 7-1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E31450DB26BBB7270028D313 /* 7-1.mp4 */; };
+		E31450E426BBB7270028D313 /* 8-9.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E31450DC26BBB7270028D313 /* 8-9.mp4 */; };
+		E31450E526BBB7270028D313 /* 7-2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E31450DD26BBB7270028D313 /* 7-2.mp4 */; };
+		E31450E626BBB7270028D313 /* 6-2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E31450DE26BBB7270028D313 /* 6-2.mp4 */; };
+		E31450E726BBB7270028D313 /* 8-6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E31450DF26BBB7270028D313 /* 8-6.mp4 */; };
+		E31450E826BBB7270028D313 /* 8-8.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E31450E026BBB7270028D313 /* 8-8.mp4 */; };
+		E31450E926BBB7270028D313 /* 8-7.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E31450E126BBB7270028D313 /* 8-7.mp4 */; };
+		E319663826BAD65A001A88A3 /* interViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E319663726BAD65A001A88A3 /* interViewController.m */; };
+		E331786926BCD00800C45DE7 /* 基本面板介绍.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E331786626BCD00800C45DE7 /* 基本面板介绍.mp4 */; };
+		E331786A26BCD00800C45DE7 /* 使用Xcode帮助系统.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E331786726BCD00800C45DE7 /* 使用Xcode帮助系统.mp4 */; };
+		E331786B26BCD00800C45DE7 /* Xcode的基本操作.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E331786826BCD00800C45DE7 /* Xcode的基本操作.mp4 */; };
+		E331787026BCD02A00C45DE7 /* 算数表达式.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E331786C26BCD02A00C45DE7 /* 算数表达式.mp4 */; };
+		E331787126BCD02A00C45DE7 /* 位运算符.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E331786D26BCD02A00C45DE7 /* 位运算符.mp4 */; };
+		E331787226BCD02A00C45DE7 /* 数据类型和常量.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E331786E26BCD02A00C45DE7 /* 数据类型和常量.mp4 */; };
+		E331787326BCD02A00C45DE7 /* 表达式.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E331786F26BCD02A00C45DE7 /* 表达式.mp4 */; };
+		E361881426B7048D004A9D06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E361881326B7048D004A9D06 /* AppDelegate.m */; };
+		E361881726B7048D004A9D06 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E361881626B7048D004A9D06 /* SceneDelegate.m */; };
+		E361881A26B7048D004A9D06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E361881926B7048D004A9D06 /* ViewController.m */; };
+		E361881D26B7048D004A9D06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E361881B26B7048D004A9D06 /* Main.storyboard */; };
+		E361881F26B7048E004A9D06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E361881E26B7048E004A9D06 /* Assets.xcassets */; };
+		E361882226B7048E004A9D06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E361882026B7048E004A9D06 /* LaunchScreen.storyboard */; };
+		E361882526B7048E004A9D06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E361882426B7048E004A9D06 /* main.m */; };
+		E361882D26B705CF004A9D06 /* playerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E361882C26B705CF004A9D06 /* playerView.m */; };
+		E361895926B70C83004A9D06 /* 4-1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E361895826B70C83004A9D06 /* 4-1.mp4 */; };
+		E3C8129B26BB045F00AEBD37 /* 8-10.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E3C8129A26BB045F00AEBD37 /* 8-10.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E313044726C0B4D600CEBB1A /* hubblecast.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; name = hubblecast.m4v; path = "../../../../Learning-AV-Foundation/Chapter 4/VideoPlayer_Starter/VideoPlayer/Resources/hubblecast.m4v"; sourceTree = "<group>"; };
+		E313044826C0B50B00CEBB1A /* video3.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = video3.mov; path = ../../../../learning/daima/24/AVKitPlayer/AVKitPlayer/video3.mov; sourceTree = "<group>"; };
+		E313044A26C0B51100CEBB1A /* video4.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = video4.mov; path = ../../../../learning/daima/24/AVKitPlayer/AVKitPlayer/video4.mov; sourceTree = "<group>"; };
+		E31450DA26BBB7270028D313 /* 6-3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "6-3.mp4"; path = "../../../../learning/视频/实例讲解/6-3.mp4"; sourceTree = "<group>"; };
+		E31450DB26BBB7270028D313 /* 7-1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "7-1.mp4"; path = "../../../../learning/视频/实例讲解/7-1.mp4"; sourceTree = "<group>"; };
+		E31450DC26BBB7270028D313 /* 8-9.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "8-9.mp4"; path = "../../../../learning/视频/实例讲解/8-9.mp4"; sourceTree = "<group>"; };
+		E31450DD26BBB7270028D313 /* 7-2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "7-2.mp4"; path = "../../../../learning/视频/实例讲解/7-2.mp4"; sourceTree = "<group>"; };
+		E31450DE26BBB7270028D313 /* 6-2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "6-2.mp4"; path = "../../../../learning/视频/实例讲解/6-2.mp4"; sourceTree = "<group>"; };
+		E31450DF26BBB7270028D313 /* 8-6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "8-6.mp4"; path = "../../../../learning/视频/实例讲解/8-6.mp4"; sourceTree = "<group>"; };
+		E31450E026BBB7270028D313 /* 8-8.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "8-8.mp4"; path = "../../../../learning/视频/实例讲解/8-8.mp4"; sourceTree = "<group>"; };
+		E31450E126BBB7270028D313 /* 8-7.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "8-7.mp4"; path = "../../../../learning/视频/实例讲解/8-7.mp4"; sourceTree = "<group>"; };
+		E319663626BAD65A001A88A3 /* interViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = interViewController.h; sourceTree = "<group>"; };
+		E319663726BAD65A001A88A3 /* interViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = interViewController.m; sourceTree = "<group>"; };
+		E331786626BCD00800C45DE7 /* 基本面板介绍.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "基本面板介绍.mp4"; path = "../../../../learning/视频/知识点/第2章/基本面板介绍.mp4"; sourceTree = "<group>"; };
+		E331786726BCD00800C45DE7 /* 使用Xcode帮助系统.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "使用Xcode帮助系统.mp4"; path = "../../../../learning/视频/知识点/第2章/使用Xcode帮助系统.mp4"; sourceTree = "<group>"; };
+		E331786826BCD00800C45DE7 /* Xcode的基本操作.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Xcode的基本操作.mp4"; path = "../../../../learning/视频/知识点/第2章/Xcode的基本操作.mp4"; sourceTree = "<group>"; };
+		E331786C26BCD02A00C45DE7 /* 算数表达式.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "算数表达式.mp4"; path = "../../../../learning/视频/知识点/第3章/算数表达式.mp4"; sourceTree = "<group>"; };
+		E331786D26BCD02A00C45DE7 /* 位运算符.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "位运算符.mp4"; path = "../../../../learning/视频/知识点/第3章/位运算符.mp4"; sourceTree = "<group>"; };
+		E331786E26BCD02A00C45DE7 /* 数据类型和常量.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "数据类型和常量.mp4"; path = "../../../../learning/视频/知识点/第3章/数据类型和常量.mp4"; sourceTree = "<group>"; };
+		E331786F26BCD02A00C45DE7 /* 表达式.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "表达式.mp4"; path = "../../../../learning/视频/知识点/第3章/表达式.mp4"; sourceTree = "<group>"; };
+		E361880F26B7048D004A9D06 /* Player_Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Player_Task.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E361881226B7048D004A9D06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E361881326B7048D004A9D06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E361881526B7048D004A9D06 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		E361881626B7048D004A9D06 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		E361881826B7048D004A9D06 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E361881926B7048D004A9D06 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E361881C26B7048D004A9D06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E361881E26B7048E004A9D06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E361882126B7048E004A9D06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E361882326B7048E004A9D06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E361882426B7048E004A9D06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E361882B26B705CF004A9D06 /* playerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = playerView.h; sourceTree = "<group>"; };
+		E361882C26B705CF004A9D06 /* playerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = playerView.m; sourceTree = "<group>"; };
+		E361895826B70C83004A9D06 /* 4-1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "4-1.mp4"; path = "Player_Task/comman/4-1.mp4"; sourceTree = SOURCE_ROOT; };
+		E3C8129A26BB045F00AEBD37 /* 8-10.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "8-10.mp4"; path = "../../../../learning/视频/实例讲解/8-10.mp4"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E361880C26B7048D004A9D06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E319663A26BB0390001A88A3 /* comman */ = {
+			isa = PBXGroup;
+			children = (
+				E331786F26BCD02A00C45DE7 /* 表达式.mp4 */,
+				E331786E26BCD02A00C45DE7 /* 数据类型和常量.mp4 */,
+				E331786C26BCD02A00C45DE7 /* 算数表达式.mp4 */,
+				E331786D26BCD02A00C45DE7 /* 位运算符.mp4 */,
+				E331786626BCD00800C45DE7 /* 基本面板介绍.mp4 */,
+				E331786726BCD00800C45DE7 /* 使用Xcode帮助系统.mp4 */,
+				E331786826BCD00800C45DE7 /* Xcode的基本操作.mp4 */,
+				E31450DE26BBB7270028D313 /* 6-2.mp4 */,
+				E31450DA26BBB7270028D313 /* 6-3.mp4 */,
+				E31450DB26BBB7270028D313 /* 7-1.mp4 */,
+				E313044A26C0B51100CEBB1A /* video4.mov */,
+				E31450DD26BBB7270028D313 /* 7-2.mp4 */,
+				E313044826C0B50B00CEBB1A /* video3.mov */,
+				E31450DF26BBB7270028D313 /* 8-6.mp4 */,
+				E313044726C0B4D600CEBB1A /* hubblecast.m4v */,
+				E31450E126BBB7270028D313 /* 8-7.mp4 */,
+				E31450E026BBB7270028D313 /* 8-8.mp4 */,
+				E31450DC26BBB7270028D313 /* 8-9.mp4 */,
+				E3C8129A26BB045F00AEBD37 /* 8-10.mp4 */,
+				E361895826B70C83004A9D06 /* 4-1.mp4 */,
+			);
+			path = comman;
+			sourceTree = "<group>";
+		};
+		E361880626B7048D004A9D06 = {
+			isa = PBXGroup;
+			children = (
+				E361881126B7048D004A9D06 /* Player_Task */,
+				E361881026B7048D004A9D06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E361881026B7048D004A9D06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E361880F26B7048D004A9D06 /* Player_Task.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E361881126B7048D004A9D06 /* Player_Task */ = {
+			isa = PBXGroup;
+			children = (
+				E319663A26BB0390001A88A3 /* comman */,
+				E361881226B7048D004A9D06 /* AppDelegate.h */,
+				E361881326B7048D004A9D06 /* AppDelegate.m */,
+				E361881526B7048D004A9D06 /* SceneDelegate.h */,
+				E361881626B7048D004A9D06 /* SceneDelegate.m */,
+				E361881826B7048D004A9D06 /* ViewController.h */,
+				E361881926B7048D004A9D06 /* ViewController.m */,
+				E361881B26B7048D004A9D06 /* Main.storyboard */,
+				E361881E26B7048E004A9D06 /* Assets.xcassets */,
+				E361882026B7048E004A9D06 /* LaunchScreen.storyboard */,
+				E319663626BAD65A001A88A3 /* interViewController.h */,
+				E319663726BAD65A001A88A3 /* interViewController.m */,
+				E361882326B7048E004A9D06 /* Info.plist */,
+				E361882426B7048E004A9D06 /* main.m */,
+				E361882B26B705CF004A9D06 /* playerView.h */,
+				E361882C26B705CF004A9D06 /* playerView.m */,
+			);
+			path = Player_Task;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E361880E26B7048D004A9D06 /* Player_Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E361882826B7048E004A9D06 /* Build configuration list for PBXNativeTarget "Player_Task" */;
+			buildPhases = (
+				E361880B26B7048D004A9D06 /* Sources */,
+				E361880C26B7048D004A9D06 /* Frameworks */,
+				E361880D26B7048D004A9D06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Player_Task;
+			productName = Player_Task;
+			productReference = E361880F26B7048D004A9D06 /* Player_Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E361880726B7048D004A9D06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					E361880E26B7048D004A9D06 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = E361880A26B7048D004A9D06 /* Build configuration list for PBXProject "Player_Task" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E361880626B7048D004A9D06;
+			productRefGroup = E361881026B7048D004A9D06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E361880E26B7048D004A9D06 /* Player_Task */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E361880D26B7048D004A9D06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E313044926C0B50B00CEBB1A /* video3.mov in Resources */,
+				E31450E526BBB7270028D313 /* 7-2.mp4 in Resources */,
+				E31450E226BBB7270028D313 /* 6-3.mp4 in Resources */,
+				E361882226B7048E004A9D06 /* LaunchScreen.storyboard in Resources */,
+				E331787326BCD02A00C45DE7 /* 表达式.mp4 in Resources */,
+				E331787026BCD02A00C45DE7 /* 算数表达式.mp4 in Resources */,
+				E331786B26BCD00800C45DE7 /* Xcode的基本操作.mp4 in Resources */,
+				E31450E826BBB7270028D313 /* 8-8.mp4 in Resources */,
+				E361881F26B7048E004A9D06 /* Assets.xcassets in Resources */,
+				E313044B26C0B51100CEBB1A /* video4.mov in Resources */,
+				E361895926B70C83004A9D06 /* 4-1.mp4 in Resources */,
+				E331786A26BCD00800C45DE7 /* 使用Xcode帮助系统.mp4 in Resources */,
+				E331787126BCD02A00C45DE7 /* 位运算符.mp4 in Resources */,
+				E31450E426BBB7270028D313 /* 8-9.mp4 in Resources */,
+				E361881D26B7048D004A9D06 /* Main.storyboard in Resources */,
+				E3C8129B26BB045F00AEBD37 /* 8-10.mp4 in Resources */,
+				E31450E726BBB7270028D313 /* 8-6.mp4 in Resources */,
+				E331786926BCD00800C45DE7 /* 基本面板介绍.mp4 in Resources */,
+				E31450E326BBB7270028D313 /* 7-1.mp4 in Resources */,
+				E31450E926BBB7270028D313 /* 8-7.mp4 in Resources */,
+				E31450E626BBB7270028D313 /* 6-2.mp4 in Resources */,
+				E331787226BCD02A00C45DE7 /* 数据类型和常量.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E361880B26B7048D004A9D06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E361881A26B7048D004A9D06 /* ViewController.m in Sources */,
+				E319663826BAD65A001A88A3 /* interViewController.m in Sources */,
+				E361881426B7048D004A9D06 /* AppDelegate.m in Sources */,
+				E361882526B7048E004A9D06 /* main.m in Sources */,
+				E361881726B7048D004A9D06 /* SceneDelegate.m in Sources */,
+				E361882D26B705CF004A9D06 /* playerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E361881B26B7048D004A9D06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E361881C26B7048D004A9D06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E361882026B7048E004A9D06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E361882126B7048E004A9D06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E361882626B7048E004A9D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E361882726B7048E004A9D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E361882926B7048E004A9D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 834YJ3628R;
+				INFOPLIST_FILE = Player_Task/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Player-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E361882A26B7048E004A9D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 834YJ3628R;
+				INFOPLIST_FILE = Player_Task/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Player-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E361880A26B7048D004A9D06 /* Build configuration list for PBXProject "Player_Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E361882626B7048E004A9D06 /* Debug */,
+				E361882726B7048E004A9D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E361882826B7048E004A9D06 /* Build configuration list for PBXNativeTarget "Player_Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E361882926B7048E004A9D06 /* Debug */,
+				E361882A26B7048E004A9D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E361880726B7048D004A9D06 /* Project object */;
+}
